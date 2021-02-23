@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+appimage-run $HOME/AppImages/Beekeeper-Studio-1.9.4.AppImage
