@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+alacritty -e "nix-shell -p steam --run 'echo done'"
+exec nix-shell -p steam --run 'steam'
