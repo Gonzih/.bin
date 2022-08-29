@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-exec emacs $@
+exec emacsclient -t $@
